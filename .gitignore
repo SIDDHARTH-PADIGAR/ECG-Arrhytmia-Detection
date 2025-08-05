@@ -1,0 +1,28 @@
+# Virtual environment
+ecg_env/
+
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+
+# Model files
+*.pt
+*.pth
+*.h5
+
+# Large processed files
+data/processed/
+
+# Optional: raw data if huge
+# data/raw/
+
+# Logs and temp
+*.log
+*.tmp
+
+# OS/IDE specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
